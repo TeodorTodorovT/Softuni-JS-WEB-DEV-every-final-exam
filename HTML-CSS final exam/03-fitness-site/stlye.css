@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.top-bar{
+    display: flex;
+    height: 65px;
+    background-color: #d01919;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.top-bar__number,
+.top-bar__address,
+.top-bar__socials{
+    display: flex;
+    color: #fff;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/* Hero */
+
+.hero{
+    background-image: url(./image/fitness-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 36px;
+    color: #fff;
+    padding: 20px 36px 0 0;
+}
+
+.hero nav ul li{
+    cursor: pointer;
+}
+
+.hero .hero__middle{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    margin-top: 150px;
+    font-family: 'PT Sans', sans-serif;
+    gap: 30px
+}
+
+.hero .hero__middle h1{
+    font-size: 36px;
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+
+.hero .hero__middle p{
+    max-width: 450px;
+    text-align: center;
+}
+
+.hero .hero__middle button{
+    border: none;
+    background-color: #d01919;
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+/* Features */
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    padding: 30px;
+}
+
+.features h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.features .divider{
+    width: 5%;
+    height: 2px;
+    background-color: #d01919;
+    margin: 30px;
+}
+
+.features .features__elements{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.features .features__elements .features__element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+    gap: 20px
+}
+
+.features .features__elements .features__element img{
+    width: 50px;
+}
+
+.features .features__elements .features__element h3{
+    color: #d01919;
+    font-weight: 700;
+}
+
+/* Coaches */
+
+.coaches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    padding: 30px;
+    background-color: #efefef;
+}
+
+.coaches h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.coaches .divider{
+    width: 5%;
+    height: 2px;
+    background-color: #d01919;
+    margin: 30px;
+}
+
+.coaches .coaches__elements{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.coaches .coaches__elements .coaches__element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+    gap: 20px
+}
+
+.coaches .coaches__elements .coaches__element img{
+    width: 250px;
+}
+
+.coaches .coaches__elements .coaches__element h3{
+    font-weight: 700;
+}
+
+.coaches .coaches__elements .coaches__element .activity{
+    font-weight: 700;
+    color: #d01919;
+}
+
+.coaches .coaches__elements .coaches__element .desc{
+    color: gray;
+}
+
+
+/* footer */
+footer{
+    height: 40px;
+    background-color: #d01919;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+}

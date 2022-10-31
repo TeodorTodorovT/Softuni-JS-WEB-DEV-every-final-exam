@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 1px 10px 9px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+
+.container__image{
+    width: 50%;
+}
+.container__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+.cntainer__form{
+    width: 50%;
+}
+
+.cntainer__form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.cntainer__form .buttons-units{
+    display: flex;
+    gap: 120px;
+    padding: 48px;
+    width: 80%;
+}
+
+.cntainer__form .buttons-units .button-units{
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.cntainer__form .buttons-units .active{
+    background-color: lightgreen;
+}
+
+.cntainer__form .gender{
+    display: flex;
+    gap: 36px;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.cntainer__form .gender input,
+.cntainer__form .gender select{
+    width: 100%;
+}
+
+
+.cntainer__form .weight{
+    width: 80%;
+}
+
+.cntainer__form .weight input{
+    width: 100%;
+}
+
+.cntainer__form .height{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+}
+
+.cntainer__form .height input{
+    width: 100%;
+}
+
+
+.cntainer__form form #submit{
+    display: flex;
+    margin: 36px 0;
+    padding: 5px 150px;
+    border-radius: 25px;
+    border: none;
+    background-color: #05a2d3;
+    color: #fff;
+    box-shadow: 1px 10px 9px 0px rgba(0,0,0,0.75);
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.cntainer__form form label{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

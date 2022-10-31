@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <title>Fitness Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__image">
+            <img src="./image/calculator.png" alt="">
+        </div>
+        <div class="cntainer__form">
+            
+            <form action="" method="post">
+                <h1>FITNESS CALCULATOR</h1>
+                <div class="buttons-units">
+                    <button class="button-units active">Standart units (US)</button>
+                    <button class="button-units">Metric units</button>
+                </div>
+                <label for="gender">Gender</label>
+                <div class="gender">
+                    
+                    <select name="gender" id="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="number" name="years" id="years" placeholder="Years...">
+                </div>
+                <label for="weight">Weight</label>
+                <div class="weight">
+                    
+                    <input type="number" name="weight" id="weight" placeholder="Pounds...">
+                </div>
+                <label for="height">Height</label>
+                <div class="height">
+                    
+                    <input type="number" name="height" id="feet" placeholder="Feet...">
+                    <input type="number" name="inches" id="inches" placeholder="Inches...">
+                </div>
+                <button id="submit">Calculate</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
